@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  intl: ^0.18.1  
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +18,14 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  fonts:
+    - family: Opensans Bold
+      fonts:
+        - asset: assets/fonts/opensans_bold.ttf
+    - family: Opensans italic
+      fonts:
+        - asset: assets/fonts/opensans_italic.ttf
+    - family: Opensans Regular
+      fonts:
+        - asset: assets/fonts/opensans_regular.ttf
